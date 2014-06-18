@@ -1,0 +1,32 @@
+<form action="/" method="get">
+	<input type="text" name="top" placeholder="TOP TEXT" />
+	<input type="text" name="bottom" placeholder="BOTTOM TEXT" />
+	<input type="submit"></input>
+</form>
+<div id="meme">
+	<img src="boo.png">
+	<h2 style="
+	    Color: white;
+	    font-size: 47;
+	    position: absolute;
+	    top: 2;
+	    left: 176;
+	"><%= top %>
+	</h2>
+	<h2 style="
+	    color: rgb(11, 50, 209);
+	    font-family: impact;
+	    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	    font-size: 115;
+	    position: absolute;
+	    top: 242;
+	    left: 139;
+	"><%= bottom %>
+	</h2>
+</div>
+<button id="create-button">Create Meme</button>
+<img id="image" src="">
+
+<script type="text/javascript" src="html2canvas.js"></script>
+<script type="text/javascript" src="meme.js"></script>
+
